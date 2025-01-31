@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>3rd-assiment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20938c3ab0.js" crossorigin="anonymous"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="flex container mx-auto lg:mt-14 mt-5 border-b-2 border-green-500 lg:hidden">
+                <div class="flex-1">
+                    <img  src="./c2-assets/logo-header.png" alt="">
+                </div>
+              <ul class=" lg:flex lg:flex-1  hidden">
+               <li class="mx-5 text-2xl" >Product</li>
+               <li class="mx-5 text-2xl" >Services</li>
+               <li class="mx-5 text-2xl" >Contact us</li>
+              </ul>
+                 
+                    <!-- small -->
+                    
+                        <div class="navbar-start absolute right-0 justify-end flex-1 text-end mr-2">
+                          <div class="dropdown lg:hidden ">
+                            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M4 6h16M4 12h16M4 18h7" />
+                              </svg>
+                            </div>
+                            <ul
+                              tabindex="0"
+                              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                              <li><a>Home</a></li>
+                              <li><a>About us</a></li>
+                              <li><a>Contact us</a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+
+
+              <div class="hidden lg:block ">
+                <i class="fa-solid fa-magnifying-glass mr-4 "></i>
+                <i class="fa-solid fa-cart-shopping mr-3"></i>
+                <button class="mr-1 btn bg-white border-2 border-green-500 rounded-lg">Log in</button>
+                <button class="text-white rounded-lg bg-green-500 py-2.5 px-6">Register</button>
+
+              </div>
+            </div>
+           
+        </nav>
+    </header>
+    <main>
+        <section class="">
+            <h1>Freshness <span>You Can</span><br>
+               <span>Count</span>On, Prices You’ll Love!</h1>
+        </section>
+
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
